@@ -1,7 +1,7 @@
 # AskMyPdf 💬
 
-AskMyPdf is a Python + Streamlit application that lets you upload a PDF and ask questions about it using natural language.  
-It uses OpenAI embeddings + LangChain’s FAISS vector store to find the most relevant chunks of text, and then uses a Large Language Model (LLM) to generate accurate answers.
+AskMyPdf is a **Python + Streamlit** application that lets you upload a PDF and ask questions about it using natural language.  
+It uses **OpenAI embeddings** + **LangChain’s FAISS vector store** to find the most relevant chunks of text, and then uses a **Large Language Model (LLM)** to generate accurate answers.
 
 ---
 
@@ -38,9 +38,12 @@ python3 -m venv venv
 source venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
- `.env` file:
 
 ---
 
+💻 Usage
+To start the application, use the Streamlit CLI:
 
+streamlit run app.py
 
+---
